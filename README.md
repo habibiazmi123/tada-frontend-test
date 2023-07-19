@@ -22,7 +22,8 @@ used for this if you're not building out a full-stack app)
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Nuxt](http://vuejs.org) - JS library
+- Node.js - v16.10.0 or newer
+- [Nuxt 3](http://vuejs.org) - JS library
 - [TailwindCSS](https://tailwindcss.com) - For styling
 
 ## Setup
