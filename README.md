@@ -1,63 +1,39 @@
-# Nuxt 3 Minimal Starter
+# Frontend Invoice for test at TADA
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### The challenge
+
+Users should be able to:
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Create, read, update, and delete invoices
+- Receive form validations when trying to create/edit an invoice
+- Save draft invoices, and mark pending invoices as paid
+- Filter invoices by status (draft/pending/paid)
+- Toggle light and dark mode
+- Bonus: Keep track of any changes, even after refreshing the browser (localStorage could be
+used for this if you're not building out a full-stack app)
+
+## My process
+
+### Built with
+
+- HTML5
+- CSS/SASS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Nuxt](http://vuejs.org) - JS library
+- [TailwindCSS](https://tailwindcss.com) - For styling
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
+git clone https://github.com/habibiazmi123/tada-frontend-test
+cd tada-frontend-test
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
+npm run dev
 ```
-
-## Development Server
 
 Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
